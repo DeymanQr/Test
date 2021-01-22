@@ -8,4 +8,4 @@ class A:
 
 class B(A):
     def __init__(self):
-        super().test_func()
+        super().__init__()
